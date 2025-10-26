@@ -2,7 +2,7 @@
 
 Spring Boot REST API with CRUD operations using H2, MySQL, and MongoDB databases.
 
-## 📋 Description
+## Description
 
 This project implements CRUD operations with three different databases:
 - **Level 1**: H2 (in-memory)
@@ -10,7 +10,7 @@ This project implements CRUD operations with three different databases:
 - **Level 3**: MongoDB
 
 
-## 🔌 Endpoints
+## Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -20,14 +20,14 @@ This project implements CRUD operations with three different databases:
 | GET | `/fruta/getOne/{id}` | Get one fruit |
 | GET | `/fruta/getAll` | Get all fruits |
 
-## 🚀 Technologies
+## Technologies
 
 - Spring Boot
 - Spring Data JPA / MongoDB
 - H2 / MySQL / MongoDB
 - Maven
 
-## ⚙️ Setup
+## Setup
 
 1. Clone the repository:
 ```bash
@@ -41,7 +41,7 @@ mvn spring-boot:run
 
 3. Access: `http://localhost:8080`
 
-## 🧪 Testing
+## Testing
 
 Example POST request:
 ```bash
@@ -50,13 +50,13 @@ curl -X POST http://localhost:8080/fruta/add \
   -d '{"nombre":"Apple","cantidadQuilos":10}'
 ```
 
-## 📚 Resources
+## Resources
 
 - [Spring Boot + MySQL CRUD Guide](https://dev.to/abhi9720/a-beginners-guide-to-crud-operations-of-rest-api-in-spring-boot-mysql-5hcl)
 - [Spring Boot with H2 Database](https://www.baeldung.com/spring-boot-h2-database)
 - [Spring Boot + MongoDB CRUD](https://www.geeksforgeeks.org/spring-boot-crud-operations-using-mongodb/)
 - [Spring ResponseEntity Guide](https://www.baeldung.com/spring-response-entity)
 
-## 👤 Author
+## Author
 
 [@adolcc](https://github.com/adolcc)
