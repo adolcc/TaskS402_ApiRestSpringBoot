@@ -1,0 +1,35 @@
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://maven.apache.org/wrapper/#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse m2e generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+### IntelliJ IDEA ###
+# Directorio de configuración del IDE
+.idea/
+# Archivos de módulo (generalmente no necesarios con Maven)
+*.iml
+*.iws
+*.ipr
+# Directorio de salida/logs de la compilación local
+/out/
+
+### macOS ###
+# Archivos de visualización del sistema operativo de Mac
+.DS_Store
+
+### Java y Spring Boot Adicional ###
+# Logs
+*.log
+*.log.*
