@@ -1,4 +1,4 @@
-#### Tenemos una entidad llamada "Fruta", que dispone de las siguientes propiedades:
+## Tenemos una entidad llamada "Fruta", que dispone de las siguientes propiedades:
 
 int id  
 String nombre  
@@ -14,15 +14,15 @@ cat.itacademy.s04.t02.n01.exception
 
 La clase ubicada en el paquete controllers (FruitaController, por ejemplo), deberá ser capaz de dar respuesta a las siguientes peticiones para actualizar y consultar información:  
 
-http://localhost:8080/fruta/add  
+- `http://localhost:8080/fruta/add`  
 
-http://localhost:8080/fruta/update  
+- `http://localhost:8080/fruta/update`  
 
-http://localhost:8080/fruta/delete/{id}  
+- `http://localhost:8080/fruta/delete/{id}`  
 
-http://localhost:8080/fruta/getOne/{id}  
+- `http://localhost:8080/fruta/getOne/{id}`  
 
-http://localhost:8080/fruta/getAll  
+- `http://localhost:8080/fruta/getAll`
 
 #### Importante:
 
