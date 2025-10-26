@@ -1,4 +1,8 @@
+### BUILD ARTIFACTS (MAVEN) ###
+# Carpeta de salida de compilación
 target/
+
+# Archivos temporales de Maven
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -7,11 +11,29 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-# https://maven.apache.org/wrapper/#usage-without-binary-jar
+
+# Archivos específicos de Maven Wrapper (¡este JAR no debe subirse!)
 .mvn/wrapper/maven-wrapper.jar
 
-# Eclipse m2e generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+### IDE (IntelliJ IDEA) ###
+# Directorio de configuración del proyecto y de usuario
+.idea/
+
+# Archivos de módulo/workspace
+*.iml
+*.iws
+*.ipr
+
+# Directorio de salida de compilación del IDE
+/out/
+
+### OS SPECIFIC (macOS y Windows) ###
+# Archivos de visualización de Mac
+.DS_Store
+
+# Archivos de miniaturas de Windows
+Thumbs.db
+
+### LOGS AND TEMP FILES ###
+*.log
+*.log.*
