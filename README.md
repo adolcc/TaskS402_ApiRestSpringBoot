@@ -1,14 +1,11 @@
 # TaskS402_ApiRestSpringBoot
 
-Spring Boot REST API with CRUD operations using H2, MySQL, and MongoDB databases.
+Spring Boot REST API with CRUD operations using H2 database.
 
 ## Description
 
 This project implements CRUD operations with three different databases:
 - **Level 1**: H2 (in-memory)
-- **Level 2**: MySQL
-- **Level 3**: MongoDB
-
 
 ## Endpoints
 
@@ -23,8 +20,8 @@ This project implements CRUD operations with three different databases:
 ## Technologies
 
 - Spring Boot
-- Spring Data JPA / MongoDB
-- H2 / MySQL / MongoDB
+- Spring Data JPA.
+- H2
 - Maven
   
 ## Resources
